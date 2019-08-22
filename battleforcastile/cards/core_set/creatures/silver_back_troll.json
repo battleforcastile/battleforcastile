@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "name": "Silver Back Troll",
+        "type": "unit",
+        "class": "creatures"
+    },
+    "stats": {
+        "original_value": 10,
+        "current_value": 10,
+        "cost": 7
+    },
+    "skills": []
+}

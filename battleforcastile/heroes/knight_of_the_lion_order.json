@@ -1,0 +1,10 @@
+{
+    "meta": {
+        "name": "Knight of the lion order",
+        "class": "kingdom"
+    },
+    "stats": {
+        "level": 1
+    },
+    "powers": []
+}

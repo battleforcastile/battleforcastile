@@ -1,0 +1,10 @@
+{
+    "meta": {
+        "name": "Black Forest Elf",
+        "class": "creatures"
+    },
+    "stats": {
+        "level": 1
+    },
+    "powers": []
+}

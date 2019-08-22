@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "name": "Dark Mountain Dragon",
+        "type": "unit",
+        "class": "creatures"
+    },
+    "stats": {
+        "original_value": 8,
+        "current_value": 8,
+        "cost": 4
+    },
+    "skills": []
+}

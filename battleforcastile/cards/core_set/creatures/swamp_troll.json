@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "name": "Swamp Troll",
+        "type": "unit",
+        "class": "creatures"
+    },
+    "stats": {
+        "original_value": 4,
+        "current_value": 4,
+        "cost": 2
+    },
+    "skills": []
+}

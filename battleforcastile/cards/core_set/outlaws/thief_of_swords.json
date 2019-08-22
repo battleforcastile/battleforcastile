@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "name": "Thief of Swords",
+        "type": "unit",
+        "class": "outlaws"
+    },
+    "stats": {
+        "original_value": 4,
+        "current_value": 4,
+        "cost": 2
+    },
+    "skills": []
+}

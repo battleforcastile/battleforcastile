@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "name": "Forest Hermit",
+        "type": "unit",
+        "class": "outlaws"
+    },
+    "stats": {
+        "original_value": 3,
+        "current_value": 3,
+        "cost": 1
+    },
+    "skills": []
+}

@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "name": "Inquisitor Judge",
+        "type": "unit",
+        "class": "kingdom"
+    },
+    "stats": {
+        "original_value": 9,
+        "current_value": 9,
+        "cost": 5
+    },
+    "skills": []
+}

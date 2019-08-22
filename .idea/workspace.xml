@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70a1efb9-96f8-4261-8833-7163befb6484" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../battleforcastile" />
+  </component>
+  <component name="ProjectId" id="1OuQqlkZ7EcrCffOet6r45k3uba" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/utils/fixtures/cards" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microverse/utils" />
+      <recent name="$PROJECT_DIR$/microverse/cards/core_set/creatures" />
+      <recent name="$PROJECT_DIR$/microverse/cards/core_set/kingdom" />
+      <recent name="C:\Users\Jose\Projects\microverse" />
+      <recent name="C:\Users\Jose\Projects\microverse\tests\utils\fixtures\cards" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/utils/fixtures/cards" />
+      <recent name="$PROJECT_DIR$/tests/utils/fixtures/heroes" />
+      <recent name="$PROJECT_DIR$/microverse/cards/core_set/creatures" />
+      <recent name="$PROJECT_DIR$/microverse/cards/core_set/outlaws" />
+      <recent name="$PROJECT_DIR$/microverse/cards/core_set/kingdom" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Nosetests for tests.cards.test_cards_core_set.test_user_can_see_cards_from_the_core_set">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Jose\.virtualenvs\microverse-kRL-A_I1\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="microverse play story" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="microverse play story" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Jose\.virtualenvs\microverse-kRL-A_I1\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="microverse" />
+      <option name="PARAMETERS" value="play story" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for tests.cards.test_cards_core_set.test_user_can_see_cards_from_the_core_set" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/microverse-rs4lLJ6d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../battleforcastile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.cards.test_cards_core_set.test_user_can_see_cards_from_the_core_set&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for tests.utils.test_utils_get_enemy_turn.test_if_get_enemy_turn_works_as_it_should" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/microverse-rs4lLJ6d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../battleforcastile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.utils.test_utils_get_enemy_turn.test_if_get_enemy_turn_works_as_it_should&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for tests.utils.test_utils_has_lost.test_if_has_lost_is_false_when_character_has_equal_value_an_empty_hand_and_wins_tie_true" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/microverse-rs4lLJ6d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../battleforcastile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.utils.test_utils_has_lost.test_if_has_lost_is_false_when_character_has_equal_value_an_empty_hand_and_wins_tie_true&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for tests.utils.test_utils_has_lost.test_if_has_lost_is_true_when_character_has_equal_value_an_empty_hand_and_wins_tie_false" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/microverse-rs4lLJ6d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../battleforcastile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.utils.test_utils_has_lost.test_if_has_lost_is_true_when_character_has_equal_value_an_empty_hand_and_wins_tie_false&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for tests.utils.test_utils_select_random_boss_power.test_if_enemy_power_is_successfully_randomly_selected" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/microverse-rs4lLJ6d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../battleforcastile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.utils.test_utils_select_random_boss_power.test_if_enemy_power_is_successfully_randomly_selected&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/microverse-rs4lLJ6d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;nosetests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.microverse play story" />
+      <item itemvalue="Python tests.Nosetests for tests.cards.test_cards_core_set.test_user_can_see_cards_from_the_core_set" />
+      <item itemvalue="Python tests.Nosetests for tests.utils.test_utils_select_random_boss_power.test_if_enemy_power_is_successfully_randomly_selected" />
+      <item itemvalue="Python tests.Nosetests for tests.utils.test_utils_has_lost.test_if_has_lost_is_true_when_character_has_equal_value_an_empty_hand_and_wins_tie_false" />
+      <item itemvalue="Python tests.Nosetests for tests.utils.test_utils_has_lost.test_if_has_lost_is_false_when_character_has_equal_value_an_empty_hand_and_wins_tie_true" />
+      <item itemvalue="Python tests.Nosetests for tests.utils.test_utils_get_enemy_turn.test_if_get_enemy_turn_works_as_it_should" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Nosetests for tests.cards.test_cards_core_set.test_user_can_see_cards_from_the_core_set" />
+        <item itemvalue="Python tests.Nosetests for tests.utils.test_utils_get_enemy_turn.test_if_get_enemy_turn_works_as_it_should" />
+        <item itemvalue="Python tests.Nosetests for tests.utils.test_utils_has_lost.test_if_has_lost_is_false_when_character_has_equal_value_an_empty_hand_and_wins_tie_true" />
+        <item itemvalue="Python tests.Nosetests for tests.utils.test_utils_has_lost.test_if_has_lost_is_true_when_character_has_equal_value_an_empty_hand_and_wins_tie_false" />
+        <item itemvalue="Python tests.Nosetests for tests.utils.test_utils_select_random_boss_power.test_if_enemy_power_is_successfully_randomly_selected" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70a1efb9-96f8-4261-8833-7163befb6484" name="Default Changelist" comment="" />
+      <created>1564825194428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564825194428</updated>
+      <workItem from="1564825197686" duration="17488000" />
+      <workItem from="1564899644981" duration="15633000" />
+      <workItem from="1565254093595" duration="33000" />
+      <workItem from="1565254131513" duration="15665000" />
+      <workItem from="1565304117748" duration="538000" />
+      <workItem from="1565352967986" duration="1147000" />
+      <workItem from="1565527022356" duration="11300000" />
+      <workItem from="1565708014237" duration="6653000" />
+      <workItem from="1565900343934" duration="755000" />
+      <workItem from="1565978142117" duration="62653000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add new cards. Fix tests. Add new &quot;value&quot; mechanic">
+      <created>1566325332815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566325332815</updated>
+    </task>
+    <task id="LOCAL-00002" summary="WIP">
+      <created>1566415041722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566415041722</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Split utils.py file into different files for each function. Fix the case where one player finishes before another player">
+      <created>1566422134315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566422134315</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/microverse" />
+    </ignored-roots>
+    <MESSAGE value="Add new cards. Fix tests. Add new &quot;value&quot; mechanic" />
+    <MESSAGE value="WIP" />
+    <MESSAGE value="Split utils.py file into different files for each function. Fix the case where one player finishes before another player" />
+    <option name="LAST_COMMIT_MESSAGE" value="Split utils.py file into different files for each function. Fix the case where one player finishes before another player" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../battleforcastile/battleforcastile/utils/utils.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="card" language="Python" />
+        <watch expression="display_card(card)" language="Python" />
+        <watch expression="f'[UNIT] {name} [Value: {value}]'" language="Python" />
+        <watch expression="r.output" language="Python" />
+        <watch expression="r.exit_code" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_send_turn_test_if_send_turn_works_as_it_should.coverage" NAME="Nosetests for test_utils_send_turn.test_if_send_turn_works_as_it_should Coverage Results" MODIFIED="1566042630553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_has_lost_test_if_has_lost_is_false_when_character_has_bigger_value_an_an_empty_hand.coverage" NAME="Nosetests for test_utils_has_lost.test_if_has_lost_is_false_when_character_has_bigger_value_an_an_empty_hand Coverage Results" MODIFIED="1566324142997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_in_test_utils_select_random_boss_power_py.coverage" NAME="Nosetests in test_utils_select_random_boss_power.py Coverage Results" MODIFIED="1565267379621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_in_test_play_single_py.coverage" NAME="Nosetests in test_play_single.py Coverage Results" MODIFIED="1564839470708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/play" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_has_lost_test_if_has_lost_is_true_when_character_has_equal_value_an_empty_hand_and_wins_tie_false.coverage" NAME="Nosetests for test_utils_has_lost.test_if_has_lost_is_true_when_character_has_equal_value_an_empty_hand_and_wins_tie_false Coverage Results" MODIFIED="1566333000034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_select_card_by_name_test_if_card_can_be_selected_when_card_exists.coverage" NAME="Nosetests for test_utils_select_card_by_name.test_if_card_can_be_selected_when_card_exists Coverage Results" MODIFIED="1566324071311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_cards_core_set_test_user_can_see_cards_from_the_core_set.coverage" NAME="Nosetests for test_cards_core_set.test_user_can_see_cards_from_the_core_set Coverage Results" MODIFIED="1566421912499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_if_playing_spells_with_lowest_selection_can_kill_a_unit.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_if_playing_spells_with_lowest_selection_can_kill_a_unit Coverage Results" MODIFIED="1566247366635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_get_match_test_if_get_match_works_as_it_should.coverage" NAME="Nosetests for test_utils_get_match.test_if_get_match_works_as_it_should Coverage Results" MODIFIED="1566247548459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_in_test_utils_show_options_py.coverage" NAME="Nosetests in test_utils_show_options.py Coverage Results" MODIFIED="1564838591091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/utils" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_if_playing_spells_with_highest_selection_and_hero_side_work_as_it_should.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_if_playing_spells_with_highest_selection_and_hero_side_work_as_it_should Coverage Results" MODIFIED="1566246234644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_in_System32.coverage" NAME="Nosetests in System32 Coverage Results" MODIFIED="1564922879770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_if_apply_action_to_board_from_spell_with_all_selection_and_enemy_side_can_kill_a_unit.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_if_apply_action_to_board_from_spell_with_all_selection_and_enemy_side_can_kill_a_unit Coverage Results" MODIFIED="1566244966744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_if_apply_action_to_board_from_units_works_as_it_should.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_if_apply_action_to_board_from_units_works_as_it_should Coverage Results" MODIFIED="1566245104075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_if_playing_spells_with_highest_selection_and_enemy_side_can_kill_a_unit.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_if_playing_spells_with_highest_selection_and_enemy_side_can_kill_a_unit Coverage Results" MODIFIED="1566246893341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_display_card_test_if_spell_card_is_displayed_properly_with_cost.coverage" NAME="Nosetests for test_utils_display_card.test_if_spell_card_is_displayed_properly_with_cost Coverage Results" MODIFIED="1566324685824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_has_lost_test_if_has_lost_is_false_when_character_has_equal_value_an_empty_hand_and_wins_tie_true.coverage" NAME="Nosetests for test_utils_has_lost.test_if_has_lost_is_false_when_character_has_equal_value_an_empty_hand_and_wins_tie_true Coverage Results" MODIFIED="1566333026814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_display_card_test_if_unit_card_is_displayed_properly_with_cost.coverage" NAME="Nosetests for test_utils_display_card.test_if_unit_card_is_displayed_properly_with_cost Coverage Results" MODIFIED="1566324564363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_if_playing_spells_with_all_selection_and_enemy_side_can_kill_a_unit.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_if_playing_spells_with_all_selection_and_enemy_side_can_kill_a_unit Coverage Results" MODIFIED="1566245272276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_play_card_test_if_play_card_does_what_it_should_in_enemy_side.coverage" NAME="Nosetests for test_utils_play_card.test_if_play_card_does_what_it_should_in_enemy_side Coverage Results" MODIFIED="1565274143824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_select_random_boss_power_test_if_enemy_power_is_successfully_randomly_selected.coverage" NAME="Nosetests for test_utils_select_random_boss_power.test_if_enemy_power_is_successfully_randomly_selected Coverage Results" MODIFIED="1566324900740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_if_playing_spells_with_lowest_selection_work_as_it_should.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_if_playing_spells_with_lowest_selection_work_as_it_should Coverage Results" MODIFIED="1566247278657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_playing_spells_with_all_selection_and_enemy_side_works_as_it_should.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_playing_spells_with_all_selection_and_enemy_side_works_as_it_should Coverage Results" MODIFIED="1566245232216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_in_test_utils_select_card_by_name_py.coverage" NAME="Nosetests in test_utils_select_card_by_name.py Coverage Results" MODIFIED="1565266859092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_if_apply_action_to_board_from_spell_with_all_selection_and_enemy_side_works_as_it_should.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_if_apply_action_to_board_from_spell_with_all_selection_and_enemy_side_works_as_it_should Coverage Results" MODIFIED="1566244811533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_get_enemy_turn_test_if_get_enemy_turn_works_as_it_should.coverage" NAME="Nosetests for test_utils_get_enemy_turn.test_if_get_enemy_turn_works_as_it_should Coverage Results" MODIFIED="1566421908149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_display_card_test_if_spell_card_is_displayed_properly_without_cost.coverage" NAME="Nosetests for test_utils_display_card.test_if_spell_card_is_displayed_properly_without_cost Coverage Results" MODIFIED="1566324667043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_display_card_test_if_unit_card_is_displayed_properly_without_cost.coverage" NAME="Nosetests for test_utils_display_card.test_if_unit_card_is_displayed_properly_without_cost Coverage Results" MODIFIED="1566324493698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_playing_spell_works_as_it_should_when_there_are_no_cards_on_the_board.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_playing_spell_works_as_it_should_when_there_are_no_cards_on_the_board Coverage Results" MODIFIED="1566245745941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_select_random_boss_power_test_if_boss_power_is_only_selected_if_cost_allows_it.coverage" NAME="Nosetests for test_utils_select_random_boss_power.test_if_boss_power_is_only_selected_if_cost_allows_it Coverage Results" MODIFIED="1565272257108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_if_playing_spells_with_highest_selection_and_enemy_side_work_as_it_should.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_if_playing_spells_with_highest_selection_and_enemy_side_work_as_it_should Coverage Results" MODIFIED="1566245481064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_in_test_utils_apply_action_to_board_py.coverage" NAME="Nosetests in test_utils_apply_action_to_board.py Coverage Results" MODIFIED="1566323471540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$Nosetests_for_test_utils_apply_action_to_board_test_if_playing_spells_with_highest_selection_and_hero_side_can_kill_a_unit.coverage" NAME="Nosetests for test_utils_apply_action_to_board.test_if_playing_spells_with_highest_selection_and_hero_side_can_kill_a_unit Coverage Results" MODIFIED="1566246785543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/microverse$microverse_play_story.coverage" NAME="microverse play story Coverage Results" MODIFIED="1564902017990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

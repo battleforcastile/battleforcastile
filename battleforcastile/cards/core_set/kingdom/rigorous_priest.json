@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "name": "Rigorous Priest",
+        "type": "unit",
+        "class": "kingdom"
+    },
+    "stats": {
+        "original_value": 6,
+        "current_value": 6,
+        "cost": 3
+    },
+    "skills": []
+}

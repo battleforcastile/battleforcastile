@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "name": "Angry Elemental",
+        "type": "unit",
+        "class": "creatures"
+    },
+    "stats": {
+        "original_value": 9,
+        "current_value": 9,
+        "cost": 5
+    },
+    "skills": []
+}

@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "name": "Paralyzing Poison",
+        "type": "spell",
+        "class": "creatures",
+        "description": "Give -3 to all enemy cards on the board"
+    },
+    "stats": {
+        "original_value": -3,
+        "current_value": -3,
+        "cost": 4
+    },
+    "selectors":  {
+        "board_side": 0,
+        "target": "all"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "name": "Curious Explorer",
+        "type": "unit",
+        "class": "kingdom"
+    },
+    "stats": {
+        "original_value": 3,
+        "current_value": 3,
+        "cost": 1
+    },
+    "skills": []
+}

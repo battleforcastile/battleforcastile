@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "name": "Sure Death",
+        "type": "spell",
+        "class": "creatures",
+        "description": "Destroy all enemy cards on the board"
+    },
+    "stats": {
+        "original_value": -999,
+        "current_value": -999,
+        "cost": 8
+    },
+    "selectors":  {
+        "board_side": 0,
+        "target": "all"
+    }
+}

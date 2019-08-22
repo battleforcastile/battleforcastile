@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "name": "Honest Knight",
+        "type": "unit",
+        "class": "kingdom"
+    },
+    "stats": {
+        "original_value": 4,
+        "current_value": 4,
+        "cost": 2
+    },
+    "skills": []
+}

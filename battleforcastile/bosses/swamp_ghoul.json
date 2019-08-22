@@ -1,0 +1,27 @@
+{
+    "meta": {
+        "name": "Swamp Ghoul"
+    },
+    "stats": {
+        "level": 3,
+        "life": 30
+    },
+    "powers": [
+        {
+            "name": "Life sucker",
+            "invocation": {
+                "card_name": "Ancient Tree",
+                "num_instances": 3
+            },
+            "cost": 4
+        },
+        {
+            "name": "Nemesis",
+            "invocation": {
+                "card_name": "Toxic Rat",
+                "num_instances": 2
+            },
+            "cost": 8
+        }
+    ]
+}

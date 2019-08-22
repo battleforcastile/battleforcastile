@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "name": "Wizard of the Elements",
+        "type": "unit",
+        "class": "outlaws"
+    },
+    "stats": {
+        "original_value": 9,
+        "current_value": 9,
+        "cost": 5
+    },
+    "skills": []
+}
