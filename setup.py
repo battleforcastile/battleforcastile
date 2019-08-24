@@ -17,7 +17,7 @@ class NoseTest(TestCommand):
 
 
 setup(name='battleforcastile',
-      version='0.0.1',
+      version='0.0.2',
       description='Play a fantasy cards game on your terminal',
       maintainer='José Vidal',
       maintainer_email='contact@josevidal.me',

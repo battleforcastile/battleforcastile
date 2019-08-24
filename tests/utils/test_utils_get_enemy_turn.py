@@ -2,7 +2,7 @@ import json
 import os
 from unittest.mock import patch
 
-from battleforcastile.constants import BATTLEFORCASTILE_BRAIN_URL
+from battleforcastile.constants import BATTLEFORCASTILE_MATCH_RECORDER_URL
 from battleforcastile.utils.get_enemy_turn import get_enemy_turn
 
 CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
@@ -40,6 +40,6 @@ def test_if_get_enemy_turn_works_as_it_should(mocked_get):
     assert state == json.loads(expected_turn['state'])
     assert num_cards == num_cards_in_hand_left
 
-    url = f'{BATTLEFORCASTILE_BRAIN_URL}/matches/{match_id}/turns/{turn_number}/hero/{enemy_username}/'
+    url = f'{BATTLEFORCASTILE_MATCH_RECORDER_URL}/matches/{match_id}/turns/{turn_number}/hero/{enemy_username}/'
 
     mocked_get.assert_called_with(url)

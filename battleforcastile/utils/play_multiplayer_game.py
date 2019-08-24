@@ -20,7 +20,7 @@ def play_multiplayer_game(hero: dict = None,
                           match_id: int = None,
                           hero_username: str = None,
                           enemy_username: str = None) -> bool:
-    core_set_path = os.path.join(CURRENT_PATH, CARDS_FOLDER_NAME, CORE_SET_FOLDER_NAME, hero['meta']['class'])
+    core_set_path = os.path.join(CURRENT_PATH, '..', CARDS_FOLDER_NAME, CORE_SET_FOLDER_NAME, hero['meta']['class'])
     did_hero_win = False
 
     cards_in_hand = select_random_cards_from_set(core_set_path, MAX_NUM_CARDS_IN_HAND)

@@ -17,8 +17,8 @@ def test_if_generate_turn_works_as_it_should():
 
     assert turn == {
         'number': turn_number,
-        'hero': hero_username,
-        'enemy': enemy_username,
+        'hero_username': hero_username,
+        'enemy_username': enemy_username,
         'state': state,
         'num_cards_in_hand_left': num_cards_in_hand_left
     }
