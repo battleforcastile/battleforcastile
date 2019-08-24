@@ -74,11 +74,14 @@ def play_multiplayer_game(hero: dict = None,
                 click.echo('An error occurred. Please try again later')
                 break
 
-        if has_lost(state['hero']['value'], state['enemy']['value'], cards_in_hand, wins_tie=True):
+
+        if has_lost(state['hero']['value'], state['enemy']['value'],
+                    len(cards_in_hand), num_cards_in_hand_left_from_enemy,  wins_tie=True):
             display_match_state(f'Final Board', state, hero, enemy)
             break
 
-        if has_lost(state['enemy']['value'], state['hero']['value'], cards_in_hand):
+        if has_lost(state['enemy']['value'], state['hero']['value'], len(cards_in_hand)
+                , num_cards_in_hand_left_from_enemy):
             display_match_state(f'Final Board', state, hero, enemy)
             did_hero_win = True
             break

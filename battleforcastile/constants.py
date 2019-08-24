@@ -6,6 +6,9 @@ __VERSION__ = '0.0.1'
 DATETIME_FORMAT = '%d-%m-%Y %H:%M:%S'
 DATA_FOLDER = '{}/.battleforcastile'.format(os.path.expanduser('~'))
 
+BATTLEFORCASTILE_CONFIG_FILENAME = '{}/{}'.format(DATA_FOLDER, os.environ.get(
+    'BATTLEFORCASTILE_CONFIG_FILENAME', 'client_config'))
+
 BOSSES_FOLDER_NAME = 'bosses'
 HEROES_FOLDER_NAME = 'heroes'
 
@@ -20,4 +23,5 @@ MAX_NUM_LEVELS = 3
 HERO_BOARD_SIDE = 1
 ENEMY_BOARD_SIDE = 0
 
+BATTLEFORCASTILE_AUTH_URL = os.getenv('BATTLEFORCASTILE_AUTH_URL', 'http://127.0.0.1:3000/api/v1')
 BATTLEFORCASTILE_MATCH_RECORDER_URL = os.getenv('BATTLEFORCASTILE_MATCH_RECORDER_URL', 'http://127.0.0.1:5000/api/v1')

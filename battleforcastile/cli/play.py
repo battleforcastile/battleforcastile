@@ -1,10 +1,11 @@
 import json
 import os
-import random
 
 import click
+from click import pass_obj
 
 from battleforcastile.constants import HEROES_FOLDER_NAME, MAX_NUM_LEVELS, BOSSES_FOLDER_NAME
+from battleforcastile.utils.get_user import get_user
 from battleforcastile.utils.select_all_files import select_all_files
 from battleforcastile.utils.play_game import play_game
 from battleforcastile.utils.select_random_boss_by_level import select_random_boss_by_level
@@ -16,7 +17,8 @@ CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 
 @click.group(help='Play on single-player or multi-player mode')
-def play():
+@pass_obj
+def play(config):
     """Play single-player or multi-player"""
     pass
 
@@ -33,7 +35,7 @@ def story():
     heroes = select_all_files(heroes_path)
     hero = heroes[0]
 
-    click.echo('Welcome to Microverse story mode!')
+    click.echo('Welcome to "Battle for Castile" story mode!')
 
     while current_level <= MAX_NUM_LEVELS and not has_finish_story_mode:
         bosses_path = os.path.join(CURRENT_PATH, '..', BOSSES_FOLDER_NAME)
@@ -59,25 +61,35 @@ def story():
 
 
 @play.command(help='Challenge another player!')
-def match():
+@pass_obj
+def match(config):
+    if not config.token:
+        click.echo('You seem to be logged out. Please log in first')
+        exit(1)
+
     # Set paths
     heroes_path = os.path.join(CURRENT_PATH, '..', HEROES_FOLDER_NAME)
-
     # Set vars
     did_hero_win = False
-    seed = random.randint(1, 900000)
-    username = f'username-{seed}'
+
+    r = get_user(config.token)
+    if r.status_code != 200:
+        click.echo('A problem has occurred. Please try again later.')
+        exit(1)
+
+    username = r.json()['username']
+    click.echo(f'Hello {username}!')
 
     # Set random hero for now (This should change later on)
     heroes = select_all_files(heroes_path)
     hero = heroes[0]
 
-    click.echo(f'Hello {username}!')
     # TODO: Create unittest
     match = find_or_create_match(username, hero)
 
     if not match:
-        return
+        click.echo('A problem has occurred. Please try again later.')
+        exit(1)
 
     enemy_info, should_start = (match['first_user'], True) if \
                                 match['first_user']['username'] != username else (
@@ -92,7 +104,7 @@ def match():
             enemy_username=enemy_info['username']
         )
     except:
-        click.echo('A problem has occurred. Finishing the match.')
+        click.echo('A problem has occurred. Please try again later.')
         finish_match(match['id'])
 
     if did_hero_win:

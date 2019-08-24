@@ -16,8 +16,11 @@ def test_if_has_lost_is_true_when_character_has_lower_value_and_an_empty_hand():
             'value': 20
         }
     }
-    cards_in_hand = []
-    assert has_lost(state['hero']['value'], state['enemy']['value'], cards_in_hand) is True
+    num_cards_in_hand_hero = 0
+    num_cards_in_hand_enemy = 0
+
+    assert has_lost(state['hero']['value'], state['enemy']['value'],
+                    num_cards_in_hand_hero, num_cards_in_hand_enemy) is True
 
 
 def test_if_has_lost_is_false_when_character_has_lower_value_but_not_an_empty_hand():
@@ -30,8 +33,10 @@ def test_if_has_lost_is_false_when_character_has_lower_value_but_not_an_empty_ha
             'value': 20
         }
     }
-    cards_in_hand = [unit_card_value_2]
-    assert has_lost(state['hero']['value'], state['enemy']['value'], cards_in_hand) is False
+    num_cards_in_hand_hero = 1
+    num_cards_in_hand_enemy = 0
+    assert has_lost(state['hero']['value'], state['enemy']['value'],
+                    num_cards_in_hand_hero, num_cards_in_hand_enemy) is False
 
 
 def test_if_has_lost_is_false_when_character_has_bigger_value_and_an_empty_hand():
@@ -44,8 +49,10 @@ def test_if_has_lost_is_false_when_character_has_bigger_value_and_an_empty_hand(
             'value': 10
         }
     }
-    cards_in_hand = []
-    assert has_lost(state['hero']['value'], state['enemy']['value'], cards_in_hand) is False
+    num_cards_in_hand_hero = 0
+    num_cards_in_hand_enemy = 0
+    assert has_lost(state['hero']['value'], state['enemy']['value'],
+                    num_cards_in_hand_hero, num_cards_in_hand_enemy) is False
 
 
 def test_if_has_lost_is_false_when_character_has_bigger_value_and_not_an_empty_hand():
@@ -58,8 +65,10 @@ def test_if_has_lost_is_false_when_character_has_bigger_value_and_not_an_empty_h
             'value': 10
         }
     }
-    cards_in_hand = [unit_card_value_2]
-    assert has_lost(state['hero']['value'], state['enemy']['value'], cards_in_hand) is False
+    num_cards_in_hand_hero = 1
+    num_cards_in_hand_enemy = 0
+    assert has_lost(state['hero']['value'], state['enemy']['value'],
+                    num_cards_in_hand_hero, num_cards_in_hand_enemy) is False
 
 
 def test_if_has_lost_is_true_when_character_has_equal_value_an_empty_hand_and_wins_tie_false():
@@ -72,8 +81,10 @@ def test_if_has_lost_is_true_when_character_has_equal_value_an_empty_hand_and_wi
             'value': 20
         }
     }
-    cards_in_hand = []
-    assert has_lost(state['hero']['value'], state['enemy']['value'], cards_in_hand, wins_tie=False) is True
+    num_cards_in_hand_hero = 0
+    num_cards_in_hand_enemy = 0
+    assert has_lost(state['hero']['value'], state['enemy']['value'],
+                    num_cards_in_hand_hero, num_cards_in_hand_enemy, wins_tie=False) is True
 
 
 def test_if_has_lost_is_false_when_character_has_equal_value_an_empty_hand_and_wins_tie_true():
@@ -86,5 +97,7 @@ def test_if_has_lost_is_false_when_character_has_equal_value_an_empty_hand_and_w
             'value': 20
         }
     }
-    cards_in_hand = []
-    assert has_lost(state['hero']['value'], state['enemy']['value'], cards_in_hand, wins_tie=True) is False
+    num_cards_in_hand_hero = 0
+    num_cards_in_hand_enemy = 0
+    assert has_lost(state['hero']['value'], state['enemy']['value'],
+                    num_cards_in_hand_hero, num_cards_in_hand_enemy, wins_tie=True) is False
