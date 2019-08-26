@@ -18,10 +18,8 @@ def find_or_create_match(username: str, hero: dict):
             break
         else:
             r = create_match(username, hero)
-            if r.status_code == 200:
+            if r.status_code == 201:
                 time.sleep(5)
-            elif r.status_code == 201:
-                pass
             else:
                 click.echo('An error occurred. Please try again later.')
                 break

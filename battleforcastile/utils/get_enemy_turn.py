@@ -1,11 +1,11 @@
 import json
 
 import requests
-from battleforcastile.constants import BATTLEFORCASTILE_MATCH_RECORDER_URL
+from battleforcastile.constants import BATTLEFORCASTILE_BACKEND_URL
 
 
 def get_enemy_turn(match_id: int, turn_number: int, enemy_username: str) -> (dict, int):
-    url = f'{BATTLEFORCASTILE_MATCH_RECORDER_URL}/matches/{match_id}/turns/{turn_number}/hero/{enemy_username}/'
+    url = f'{BATTLEFORCASTILE_BACKEND_URL}/matches/{match_id}/turns/{turn_number}/hero/{enemy_username}/'
     r = requests.get(url)
 
     if r.status_code == 200:

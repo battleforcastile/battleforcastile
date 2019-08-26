@@ -79,7 +79,6 @@ def match(config):
 
     username = r.json()['username']
     click.echo(f'Hello {username}!')
-
     # Set random hero for now (This should change later on)
     heroes = select_all_files(heroes_path)
     hero = heroes[0]

@@ -2,23 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="044104e2-05bc-4e5e-8991-d02383f343b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/battleforcastile/cli/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleforcastile/cli/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleforcastile/cli/logout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleforcastile/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleforcastile/utils/create_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleforcastile/utils/get_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleforcastile/utils/login_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/utils/test_utils_create_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/utils/test_utils_get_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/utils/test_utils_login_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/battleforcastile/cli/play.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/cli/play.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/battleforcastile/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/has_lost.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/has_lost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/play_multiplayer_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/play_multiplayer_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_has_lost.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_has_lost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/create_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/create_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/create_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/find_or_create_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/find_or_create_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/finish_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/finish_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/get_enemy_turn.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/get_enemy_turn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/get_match_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/get_match_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/get_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/login_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/login_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/search_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/search_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/send_turn.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/send_turn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_create_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_create_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_create_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_get_enemy_turn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_get_enemy_turn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_get_match_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_get_match_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_get_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_login_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_login_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_search_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_search_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_send_turn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_send_turn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +78,9 @@
       <option name="presentableId" value="Default" />
       <updated>1566647737337</updated>
       <workItem from="1566647743661" duration="52000" />
-      <workItem from="1566647798540" duration="7802000" />
+      <workItem from="1566647798540" duration="8664000" />
+      <workItem from="1566672348010" duration="161000" />
+      <workItem from="1566675459722" duration="11719000" />
     </task>
     <task id="LOCAL-00001" summary="Adapt CLI to the new Micro-service &quot;Match recorder&quot;">
       <created>1566648880542</created>

@@ -3,7 +3,7 @@ import os
 
 from unittest.mock import patch
 
-from battleforcastile.constants import BATTLEFORCASTILE_MATCH_RECORDER_URL
+from battleforcastile.constants import BATTLEFORCASTILE_BACKEND_URL
 from battleforcastile.utils.search_match import search_match
 
 CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
@@ -20,7 +20,7 @@ def test_if_search_match_works_as_it_should(mocked_post):
 
     assert response.status_code == 200
     mocked_post.assert_called_with(
-        f'{BATTLEFORCASTILE_MATCH_RECORDER_URL}/matches/search/',
+        f'{BATTLEFORCASTILE_BACKEND_URL}/matches/search/',
         data=json.dumps({
             'user': {
                 'username': username,

@@ -3,13 +3,13 @@ import json
 import requests
 
 from battleforcastile.utils.generate_turn import generate_turn
-from battleforcastile.constants import BATTLEFORCASTILE_MATCH_RECORDER_URL
+from battleforcastile.constants import BATTLEFORCASTILE_BACKEND_URL
 
 
 def send_turn(match_id: int, turn_number: int, state: dict, hero_username: str,
               enemy_username: str, num_cards_in_hand_left: int) -> dict:
     turn = generate_turn(turn_number, state, hero_username, enemy_username, num_cards_in_hand_left)
-    url = f'{BATTLEFORCASTILE_MATCH_RECORDER_URL}/matches/{match_id}/turns/'
+    url = f'{BATTLEFORCASTILE_BACKEND_URL}/matches/{match_id}/turns/'
     r = requests.post(url, data=json.dumps(turn))
 
     if r.status_code == 201:

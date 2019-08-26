@@ -3,7 +3,7 @@ import os
 
 from unittest.mock import patch
 
-from battleforcastile.constants import BATTLEFORCASTILE_AUTH_URL
+from battleforcastile.constants import BATTLEFORCASTILE_BACKEND_URL
 from battleforcastile.utils.create_account import create_account
 
 CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
@@ -21,7 +21,7 @@ def test_if_create_account_works_as_it_should(mocked_post):
 
     assert response.status_code == 200
     mocked_post.assert_called_with(
-        f'{BATTLEFORCASTILE_AUTH_URL}/users/',
+        f'{BATTLEFORCASTILE_BACKEND_URL}/account/create/',
         data=json.dumps({
             'email': email,
             'username': username,
