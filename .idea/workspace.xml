@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="044104e2-05bc-4e5e-8991-d02383f343b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/cli/play.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/cli/play.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/create_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/create_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/create_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/find_or_create_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/find_or_create_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/finish_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/finish_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/get_enemy_turn.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/get_enemy_turn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/get_match_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/get_match_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/get_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/login_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/login_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/search_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/search_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/send_turn.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/send_turn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_create_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_create_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_create_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_get_enemy_turn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_get_enemy_turn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_get_match_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_get_match_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_get_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_login_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_login_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_search_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_search_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_send_turn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_send_turn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +25,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/battleforcastile/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/battleforcastile/utils" />
       <recent name="$PROJECT_DIR$/tests/utils" />
       <recent name="$PROJECT_DIR$/battleforcastile/cli" />
@@ -80,7 +61,7 @@
       <workItem from="1566647743661" duration="52000" />
       <workItem from="1566647798540" duration="8664000" />
       <workItem from="1566672348010" duration="161000" />
-      <workItem from="1566675459722" duration="11719000" />
+      <workItem from="1566675459722" duration="12616000" />
     </task>
     <task id="LOCAL-00001" summary="Adapt CLI to the new Micro-service &quot;Match recorder&quot;">
       <created>1566648880542</created>
@@ -89,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566648880542</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adapt endpoints to the new architecture with Queues">
+      <created>1566846292663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566846292664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adapt CLI to the new Micro-service &quot;Match recorder&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapt CLI to the new Micro-service &quot;Match recorder&quot;" />
+    <MESSAGE value="Adapt endpoints to the new architecture with Queues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapt endpoints to the new architecture with Queues" />
   </component>
 </project>
