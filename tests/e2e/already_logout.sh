@@ -7,6 +7,6 @@ set user1 $spawn_id
 
 sleep 2
 
-expect -i $user1 "Logout Succeeded"
+expect -i $user1 "You are already logged out"
 
 expect eof

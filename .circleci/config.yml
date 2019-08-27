@@ -68,6 +68,9 @@ jobs:
             echo "Scenario: Successful logout"
             pipenv run ./successful_logout.sh ${USERNAME1}
 
+            echo "Scenario: Already logout"
+            pipenv run ./already_logout.sh ${USERNAME1}
+
             echo "Scenario: Successful account deletion"
             pipenv run ./successful_login.sh ${USERNAME1} ${PASSWORD1}
             pipenv run ./successful_account_deletion.sh
