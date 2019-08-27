@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="044104e2-05bc-4e5e-8991-d02383f343b6" name="Default Changelist" comment="Adapt endpoints to the new architecture with Queues">
-      <change afterPath="$PROJECT_DIR$/battleforcastile/utils/delete_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/e2e/invalid_account_creation_due_to_duplicated_email.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/e2e/invalid_account_creation_due_to_duplicated_username.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/e2e/invalid_account_creation_due_to_short_password.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/e2e/successful_account_deletion.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/utils/test_utils_delete_account.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/cli/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/cli/account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/login.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/successful_login.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/invalid_account_creation_due_to_duplicated_email.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/invalid_account_creation_due_to_duplicated_email.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/invalid_account_creation_due_to_duplicated_username.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/invalid_account_creation_due_to_duplicated_username.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/invalid_account_creation_due_to_short_password.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/invalid_account_creation_due_to_short_password.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/successful_account_creation.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/successful_account_creation.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/successful_account_deletion.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/successful_account_deletion.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/successful_login.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/successful_login.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +88,7 @@
       <workItem from="1566672348010" duration="161000" />
       <workItem from="1566675459722" duration="13787000" />
       <workItem from="1566924969367" duration="820000" />
-      <workItem from="1566925859760" duration="4894000" />
+      <workItem from="1566925859760" duration="5444000" />
     </task>
     <task id="LOCAL-00001" summary="Adapt CLI to the new Micro-service &quot;Match recorder&quot;">
       <created>1566648880542</created>

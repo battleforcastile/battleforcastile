@@ -50,11 +50,17 @@ jobs:
           command: |
             pipenv run pip install -e .
             cd tests/e2e
+            echo "Scenario: Successful account creation"
             pipenv run ./successful_account_creation.sh ${EMAIL1} ${USERNAME1} ${PASSWORD1}
+            echo "Scenario: Invalid account creation due to duplicated email"
             pipenv run ./invalid_account_creation_due_to_duplicated_email.sh ${EMAIL1} ${USERNAME2} ${PASSWORD2}
+            echo "Scenario: Invalid account creation due to duplicated username"
             pipenv run ./invalid_account_creation_due_to_duplicated_username.sh ${EMAIL2} ${USERNAME1} ${PASSWORD2}
+            echo "Scenario: Invalid account creation due to short password"
             pipenv run ./invalid_account_creation_due_to_short_password.sh ${EMAIL2} ${USERNAME2} ${SHORT_PASSWORD}
+            echo "Scenario: Successful login"
             pipenv run ./successful_login.sh ${USERNAME1} ${PASSWORD1}
+            echo "Scenario: Successful account deletion"
             pipenv run ./successful_account_deletion.sh
 
       - store_test_results:
