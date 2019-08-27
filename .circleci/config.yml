@@ -60,7 +60,7 @@ jobs:
             pipenv run ./invalid_account_creation_due_to_duplicated_username.sh ${EMAIL2} ${USERNAME1} ${PASSWORD2}
 
             echo "Scenario: Invalid account creation due to short password"
-            pipenv run ./invalid_account_creation_due_to_short_password.sh ${EMAIL2} ${USERNAME2} ${SHORT_PASSWORD}
+            pipenv run ./invalid_account_creation_due_to_short_password.sh ${EMAIL3} ${USERNAME3} ${SHORT_PASSWORD}
 
             echo "Scenario: Successful login"
             pipenv run ./successful_login.sh ${USERNAME1} ${PASSWORD1}

@@ -1,6 +1,9 @@
+import os
+
 import click
 from click import pass_obj
 
+from battleforcastile.constants import BATTLEFORCASTILE_CONFIG_FILENAME
 from battleforcastile.utils.create_account import create_account
 from battleforcastile.utils.delete_account import delete_account
 
@@ -19,9 +22,13 @@ def account(config):
 def create(config, email, username):
     password = click.prompt('Please enter a password', type=str)
 
-    create_account(email, username, password)
+    r = create_account(email, username, password)
 
-    click.echo('Account Created')
+    if r.status_code == 201:
+        click.echo('Account Created')
+    else:
+        click.echo(r.content)
+
 
 
 @account.command(help='Delete a account in Battle for Castile')
@@ -31,6 +38,11 @@ def delete(config):
         click.echo('You seem to be logged out. Please log in first')
         exit(1)
 
-    delete_account(config.token)
+    r = delete_account(config.token)
 
-    click.echo('Account Deleted')
+    if r.status_code == 204:
+        if os.path.exists(BATTLEFORCASTILE_CONFIG_FILENAME):
+            os.remove(BATTLEFORCASTILE_CONFIG_FILENAME)
+        click.echo('Account Deleted')
+    else:
+        click.echo(r.content)

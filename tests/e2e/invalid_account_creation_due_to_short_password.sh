@@ -13,6 +13,6 @@ sleep 2
 
 send -i $user1 "${password}\r"
 
-expect -i $user1 "Account Created"
+expect -i $user1 "password too short (minimum 8 characters)"
 
 expect eof
