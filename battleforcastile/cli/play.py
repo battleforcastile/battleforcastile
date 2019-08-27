@@ -4,7 +4,7 @@ import os
 import click
 from click import pass_obj
 
-from battleforcastile.constants import HEROES_FOLDER_NAME, MAX_NUM_LEVELS, BOSSES_FOLDER_NAME
+from battleforcastile.constants import HEROES_FOLDER_NAME, MAX_NUM_LEVELS, BOSSES_FOLDER_NAME, MAX_NUM_LEVELS_E2E
 from battleforcastile.utils.get_user import get_user
 from battleforcastile.utils.select_all_files import select_all_files
 from battleforcastile.utils.play_game import play_game
@@ -24,7 +24,9 @@ def play(config):
 
 
 @play.command(help='Play on single-player mode')
-def story():
+@click.option('--e2e-mode', type=click.BOOL, required=False)
+@pass_obj
+def story(config, e2e_mode):
     # Set paths
     heroes_path = os.path.join(CURRENT_PATH, '..', HEROES_FOLDER_NAME)
 
@@ -32,24 +34,27 @@ def story():
     current_level = 1
     has_finish_story_mode = False
 
-    heroes = select_all_files(heroes_path)
-    hero = heroes[0]
+    if e2e_mode:
+        hero = select_all_files(f'{CURRENT_PATH}/../../tests/e2e/heroes')[0]
+    else:
+        heroes = select_all_files(heroes_path)
+        hero = heroes[0]
 
     click.echo('Welcome to "Battle for Castile" story mode!')
 
     while current_level <= MAX_NUM_LEVELS and not has_finish_story_mode:
         bosses_path = os.path.join(CURRENT_PATH, '..', BOSSES_FOLDER_NAME)
-        enemy = select_random_boss_by_level(bosses_path, level=current_level)
+        enemy = select_random_boss_by_level(bosses_path, level=current_level, e2e_mode=e2e_mode)
 
         click.echo(click.style('============================================================', fg='cyan', bold=True))
         click.echo(click.style(f'Level {current_level}: {enemy["meta"]["name"]}', fg='cyan', bold=True))
         click.echo(click.style('============================================================', fg='cyan', bold=True))
 
-        did_hero_win = play_game(hero, enemy)
+        did_hero_win = play_game(hero, enemy, e2e_mode)
 
         if did_hero_win:
             click.echo('Congrats! You won this level! :)')
-            if current_level == MAX_NUM_LEVELS:
+            if current_level == MAX_NUM_LEVELS or (current_level == MAX_NUM_LEVELS_E2E and e2e_mode is True):
                 click.echo('You finished the story mode!')
                 has_finish_story_mode = True
         else:

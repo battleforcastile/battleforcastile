@@ -10,11 +10,11 @@ from battleforcastile.utils.play_hero_turn import play_hero_turn
 from battleforcastile.utils.select_random_cards_from_set import select_random_cards_from_set
 
 
-def play_game(hero: dict = None, enemy: dict = None) -> bool:
-    core_set_path = os.path.join(CURRENT_PATH, CARDS_FOLDER_NAME, CORE_SET_FOLDER_NAME, hero['meta']['class'])
+def play_game(hero: dict = None, enemy: dict = None, e2e_mode: bool = False) -> bool:
+    core_set_path = os.path.join(CURRENT_PATH, '..', CARDS_FOLDER_NAME, CORE_SET_FOLDER_NAME, hero['meta']['class'])
     did_hero_win = False
 
-    cards_in_hand = select_random_cards_from_set(core_set_path, MAX_NUM_CARDS_IN_HAND)
+    cards_in_hand = select_random_cards_from_set(core_set_path, MAX_NUM_CARDS_IN_HAND, e2e_mode)
 
     state = {
         'hero': {
@@ -34,10 +34,10 @@ def play_game(hero: dict = None, enemy: dict = None) -> bool:
         state['hero']['value'] = calculate_current_value(state['board'][HERO_BOARD_SIDE])
         state['enemy']['value'] = calculate_current_value(state['board'][ENEMY_BOARD_SIDE])
 
-        if has_lost(state['hero']['value'], state['enemy']['value'], cards_in_hand, wins_tie=True):
+        if has_lost(state['hero']['value'], state['enemy']['value'], len(cards_in_hand), len(cards_in_hand), wins_tie=True):
             break
 
-        if has_lost(state['enemy']['value'], state['hero']['value'], cards_in_hand):
+        if has_lost(state['enemy']['value'], state['hero']['value'], len(cards_in_hand), len(cards_in_hand)):
             did_hero_win = True
             break
 

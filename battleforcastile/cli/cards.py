@@ -19,7 +19,23 @@ def cards():
 def core_set():
     click.echo('These are the cards available on the Core Set:')
 
-    core_set_path = os.path.join(CURRENT_PATH, '..', CARDS_FOLDER_NAME, CORE_SET_FOLDER_NAME)
-    imported_cards = select_all_files(core_set_path)
+    creatures_core_set_path = os.path.join(CURRENT_PATH, '..', CARDS_FOLDER_NAME,
+                                           CORE_SET_FOLDER_NAME, 'creatures')
+    kingdom_core_set_path = os.path.join(CURRENT_PATH, '..', CARDS_FOLDER_NAME,
+                                         CORE_SET_FOLDER_NAME, 'kingdom')
+    outlaws_core_set_path = os.path.join(CURRENT_PATH, '..', CARDS_FOLDER_NAME,
+                                         CORE_SET_FOLDER_NAME, 'outlaws')
+    click.echo('Creatures:')
+    imported_cards = select_all_files(creatures_core_set_path)
+    for card in imported_cards:
+        click.echo(display_card(card))
+
+    click.echo('Kingdom:')
+    imported_cards = select_all_files(kingdom_core_set_path)
+    for card in imported_cards:
+        click.echo(display_card(card))
+
+    click.echo('Outlaws:')
+    imported_cards = select_all_files(outlaws_core_set_path)
     for card in imported_cards:
         click.echo(display_card(card))
