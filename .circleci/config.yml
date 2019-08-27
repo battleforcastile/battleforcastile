@@ -25,6 +25,7 @@ jobs:
           key: deps9-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
       - run:
           command: |
+            sudo apt-get -y install expect
             sudo pip install pipenv
             pipenv install --dev
       - save_cache:
@@ -39,11 +40,18 @@ jobs:
       # https://pytest.org
       # https://nose.readthedocs.io
       - run:
-          name: run tests
+          name: run unittests
           command: |
             mkdir test-results
             mkdir test-reports
             pipenv run nosetests
+      - run:
+          name: run e2e
+          command: |
+            pipenv run pip install -e .
+            cd tests/e2e
+            pipenv run ./login.sh ${USERNAME1} ${PASSWORD1}
+
       - store_test_results:
           path: test-results
 
