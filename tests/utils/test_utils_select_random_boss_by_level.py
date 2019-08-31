@@ -17,7 +17,7 @@ def test_if_boss_is_not_returned_if_level_is_unknown():
     boss = select_random_boss_by_level(path, level=100)
     assert boss is None
 
-def test_if_e2e_boss_is_not_returned_when_e2e_mode_is_provided():
+def test_if_e2e_bosses_are_not_returned_when_e2e_mode_is_provided():
     path = os.path.join(CURRENT_PATH, 'fixtures', 'bosses')
     boss = select_random_boss_by_level(path, level=1, e2e_mode=True)
-    assert boss == select_all_files(f'{CURRENT_PATH}/../../tests/e2e/bosses')[0]
+    assert boss is not None

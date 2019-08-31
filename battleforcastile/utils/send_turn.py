@@ -2,6 +2,7 @@ import json
 
 import requests
 
+from battleforcastile.exceptions import TurnCouldNotBeSentException
 from battleforcastile.utils.generate_turn import generate_turn
 from battleforcastile.constants import BATTLEFORCASTILE_BACKEND_URL
 
@@ -14,4 +15,5 @@ def send_turn(match_id: int, turn_number: int, state: dict, hero_username: str,
 
     if r.status_code == 201:
         return json.loads(r.json()['state'])
-    return {}
+    else:
+        raise TurnCouldNotBeSentException()

@@ -10,9 +10,7 @@ from battleforcastile.utils.display_card import display_card
 from battleforcastile.utils.show_options import show_options
 
 
-def play_hero_turn(turn_number: int, enemy: dict, state: dict, cards_in_hand: List, hero: dict) -> (dict, List):
-    display_match_state(f'HERO Turn Start ({turn_number} Cost Available)', state, hero, enemy)
-
+def play_hero_turn(turn_number: int, state: dict, cards_in_hand: List) -> (dict, List):
     click.echo(click.style(f'CARDS IN HAND:', fg='blue'))
     click.echo(show_cards(cards_in_hand, with_indices=True, with_cost=True))
 
