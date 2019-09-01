@@ -1,4 +1,19 @@
 # Units
+
+unit_card_value_1 = {
+    "meta": {
+        "name": "Minion",
+        "type": "unit",
+        "class": "creatures"
+    },
+    "stats": {
+        "original_value": 1,
+        "current_value": 1,
+        "cost": 1
+    },
+    "skills": []
+}
+
 unit_card_value_2 = {
     "meta": {
         "name": "Ancient Tree",
@@ -98,5 +113,24 @@ spell_card_value_minus_2_enemy_lowest= {
     "selectors":  {
         "board_side": 0,
         "target": "lowest"
+    }
+}
+
+
+spell_card_value_minus_999_enemy_all= {
+    "meta": {
+        "name": "Sure Death",
+        "type": "spell",
+        "class": "creatures",
+        "description": "Destroy all the enemy of the board"
+    },
+    "stats": {
+        "original_value": -999,
+        "current_value": -999,
+        "cost": 8
+    },
+    "selectors":  {
+        "board_side": 0,
+        "target": "all"
     }
 }

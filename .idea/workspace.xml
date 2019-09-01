@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="044104e2-05bc-4e5e-8991-d02383f343b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/apply_action_to_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/apply_action_to_board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_apply_action_to_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_apply_action_to_board.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/e2e" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -49,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in test_utils_select_random_boss_by_level.py">
+  <component name="RunManager" selected="Python tests.Nosetests in test_utils_apply_action_to_board.py">
     <configuration name="login.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="battleforcastile" />
       <option name="INTERPRETER_OPTIONS" value="bash" />
@@ -59,6 +61,28 @@
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/e2e/login.sh" />
       <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_utils_apply_action_to_board" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/utils/test_utils_apply_action_to_board.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="test_utils_select_random_cards_from_set" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -81,6 +105,22 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in test_utils_apply_action_to_board.py" type="tests" factoryName="Nosetests" nameIsGenerated="true">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/utils/test_utils_apply_action_to_board.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Nosetests in test_utils_select_random_boss_by_level.py" type="tests" factoryName="Nosetests" nameIsGenerated="true">
@@ -118,10 +158,13 @@
     <list>
       <item itemvalue="Bash.login.sh" />
       <item itemvalue="Python.test_utils_select_random_cards_from_set" />
+      <item itemvalue="Python.test_utils_apply_action_to_board" />
+      <item itemvalue="Python tests.Nosetests in test_utils_apply_action_to_board.py" />
       <item itemvalue="Python tests.Nosetests in test_utils_select_random_boss_by_level.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_utils_apply_action_to_board" />
         <item itemvalue="Python.test_utils_select_random_cards_from_set" />
         <item itemvalue="Bash.login.sh" />
       </list>
@@ -144,7 +187,8 @@
       <workItem from="1566924969367" duration="820000" />
       <workItem from="1566925859760" duration="24803000" />
       <workItem from="1567100336155" duration="9876000" />
-      <workItem from="1567233090424" duration="20405000" />
+      <workItem from="1567233090424" duration="22009000" />
+      <workItem from="1567325075797" duration="3563000" />
     </task>
     <task id="LOCAL-00001" summary="Adapt CLI to the new Micro-service &quot;Match recorder&quot;">
       <created>1566648880542</created>
@@ -207,12 +251,15 @@
         <watch expression="boss" language="Python" />
         <watch expression="boss == select_all_files(f'{CURRENT_PATH}/../../tests/e2e/bosses')[0]" language="Python" />
         <watch expression="select_all_files(f'{CURRENT_PATH}/../../tests/e2e/bosses')[0]" language="Python" />
+        <watch expression="new_board[board_side_target]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/battleforcastile$pytest_in_test_utils_select_random_boss_by_level_py.coverage" NAME="pytest in test_utils_select_random_boss_by_level.py Coverage Results" MODIFIED="1567021082390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/battleforcastile$Nosetests_in_test_utils_select_random_boss_by_level_py.coverage" NAME="Nosetests in test_utils_select_random_boss_by_level.py Coverage Results" MODIFIED="1567259604974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/battleforcastile$Nosetests_in_test_utils_apply_action_to_board_py.coverage" NAME="Nosetests in test_utils_apply_action_to_board.py Coverage Results" MODIFIED="1567328658362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/battleforcastile$test_utils_apply_action_to_board.coverage" NAME="test_utils_apply_action_to_board Coverage Results" MODIFIED="1567326461173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/utils" />
     <SUITE FILE_PATH="coverage/battleforcastile$test_utils_select_random_cards_from_set.coverage" NAME="test_utils_select_random_cards_from_set Coverage Results" MODIFIED="1567021037890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/utils" />
   </component>
 </project>

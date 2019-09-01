@@ -21,37 +21,58 @@ def apply_action_to_board(state: dict, card_to_play: dict, board_side: int) -> d
             for idx, _ in enumerate(state['board'][board_side_target]):
                 card_from_board = new_board[board_side_target][idx]
                 card_from_board['stats']['current_value'] += card_to_play['stats']['current_value']
-                if card_from_board['stats']['current_value'] <= 0:
-                    del new_board[board_side_target][idx]
+
+            new_board[board_side_target][:] = [
+                card for card in new_board[board_side_target] if card['stats']['current_value'] > 0]
+
         elif selection == 'highest':
             highest_value = 0
-            highest_value_card_idx = None
+
+            # Get highest value
             for idx, _ in enumerate(state['board'][board_side_target]):
                 card_from_board = new_board[board_side_target][idx]
                 if card_from_board['stats']['current_value'] > highest_value:
                     highest_value = card_from_board['stats']['current_value']
-                    highest_value_card_idx = idx
 
-            if highest_value_card_idx is not None:
-                new_board[board_side_target][highest_value_card_idx]['stats']['current_value'] += (
-                    card_to_play['stats']['current_value'])
-                if new_board[board_side_target][highest_value_card_idx]['stats']['current_value'] <= 0:
-                    del new_board[board_side_target][highest_value_card_idx]
+            highest_value_cards = []
+            # Get cards with the highest value
+            for idx, _ in enumerate(state['board'][board_side_target]):
+                card_from_board = new_board[board_side_target][idx]
+                if card_from_board['stats']['current_value'] == highest_value:
+                    highest_value_cards.append(card_from_board)
+
+            # Apply change to the selected cards
+            for card in highest_value_cards:
+                card['stats']['current_value'] += card_to_play['stats']['current_value']
+
+            # Delete board if necessary
+            new_board[board_side_target][:] = [
+                card for card in new_board[board_side_target] if card['stats']['current_value'] > 0]
+
 
         elif selection == 'lowest':
             lowest_value = 999
-            lowest_value_card_idx = None
+
+            # Get lowest value
             for idx, _ in enumerate(state['board'][board_side_target]):
                 card_from_board = new_board[board_side_target][idx]
                 if card_from_board['stats']['current_value'] < lowest_value:
                     lowest_value = card_from_board['stats']['current_value']
-                    lowest_value_card_idx = idx
 
-            if lowest_value_card_idx is not None:
-                new_board[board_side_target][lowest_value_card_idx]['stats']['current_value'] += (
-                    card_to_play['stats']['current_value'])
-                if new_board[board_side_target][lowest_value_card_idx]['stats']['current_value'] <= 0:
-                    del new_board[board_side_target][lowest_value_card_idx]
+            lowest_value_cards = []
+            # Get cards with the lowest value
+            for idx, _ in enumerate(state['board'][board_side_target]):
+                card_from_board = new_board[board_side_target][idx]
+                if card_from_board['stats']['current_value'] == lowest_value:
+                    lowest_value_cards.append(card_from_board)
+
+            # Apply change to the selected cards
+            for card in lowest_value_cards:
+                card['stats']['current_value'] += card_to_play['stats']['current_value']
+
+            # Delete board if necessary
+            new_board[board_side_target][:] = [
+                card for card in new_board[board_side_target] if card['stats']['current_value'] > 0]
 
     state['board'] = new_board
     return state
