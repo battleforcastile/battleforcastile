@@ -3,7 +3,7 @@ import os
 import click
 from click import pass_obj
 
-from battleforcastile.constants import BATTLEFORCASTILE_CONFIG_FILENAME
+from battleforcastile.constants import BATTLEFORCASTILE_CONFIG_FILEPATH
 from battleforcastile.utils.create_account import create_account
 from battleforcastile.utils.delete_account import delete_account
 
@@ -41,8 +41,8 @@ def delete(config):
     r = delete_account(config.token)
 
     if r.status_code == 204:
-        if os.path.exists(BATTLEFORCASTILE_CONFIG_FILENAME):
-            os.remove(BATTLEFORCASTILE_CONFIG_FILENAME)
+        if os.path.exists(BATTLEFORCASTILE_CONFIG_FILEPATH):
+            os.remove(BATTLEFORCASTILE_CONFIG_FILEPATH)
         click.echo('Account Deleted')
     else:
         click.echo(r.content)

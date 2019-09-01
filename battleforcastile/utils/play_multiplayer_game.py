@@ -1,8 +1,8 @@
 import os
 
 from battleforcastile.cli.cards import CURRENT_PATH
-from battleforcastile.constants import CARDS_FOLDER_NAME, CORE_SET_FOLDER_NAME, MAX_NUM_CARDS_IN_HAND, MAX_NUM_TURNS, \
-    HERO_BOARD_SIDE, ENEMY_BOARD_SIDE
+from battleforcastile.constants import CARDS_FOLDER_NAME, MAX_NUM_CARDS_IN_HAND, MAX_NUM_TURNS, \
+    HERO_BOARD_SIDE, ENEMY_BOARD_SIDE, CARDS_FOLDER_PATH
 from battleforcastile.exceptions import HeroPlayerHasWonException
 from battleforcastile.utils.calculate_current_value import calculate_current_value
 from battleforcastile.utils.display_match_state import display_match_state
@@ -20,8 +20,8 @@ def play_multiplayer_game(hero: dict = None,
                           hero_username: str = None,
                           enemy_username: str = None,
                           e2e_mode: bool = False):
-    core_set_path = os.path.join(CURRENT_PATH, '..', CARDS_FOLDER_NAME, CORE_SET_FOLDER_NAME, hero['meta']['class'])
 
+    core_set_path = os.path.join(CARDS_FOLDER_PATH, hero['meta']['class'])
     cards_in_hand = select_random_cards_from_set(core_set_path, MAX_NUM_CARDS_IN_HAND, e2e_mode=e2e_mode)
 
     state = {

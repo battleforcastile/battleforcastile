@@ -18,10 +18,12 @@ def apply_action_to_board(state: dict, card_to_play: dict, board_side: int) -> d
         selection = card_to_play['selectors']['target']
 
         if selection == 'all':
+            # Apply to all cards
             for idx, _ in enumerate(state['board'][board_side_target]):
                 card_from_board = new_board[board_side_target][idx]
                 card_from_board['stats']['current_value'] += card_to_play['stats']['current_value']
 
+            # Delete from board if necessary
             new_board[board_side_target][:] = [
                 card for card in new_board[board_side_target] if card['stats']['current_value'] > 0]
 
@@ -45,7 +47,7 @@ def apply_action_to_board(state: dict, card_to_play: dict, board_side: int) -> d
             for card in highest_value_cards:
                 card['stats']['current_value'] += card_to_play['stats']['current_value']
 
-            # Delete board if necessary
+            # Delete from board if necessary
             new_board[board_side_target][:] = [
                 card for card in new_board[board_side_target] if card['stats']['current_value'] > 0]
 
@@ -70,7 +72,7 @@ def apply_action_to_board(state: dict, card_to_play: dict, board_side: int) -> d
             for card in lowest_value_cards:
                 card['stats']['current_value'] += card_to_play['stats']['current_value']
 
-            # Delete board if necessary
+            # Delete from board if necessary
             new_board[board_side_target][:] = [
                 card for card in new_board[board_side_target] if card['stats']['current_value'] > 0]
 

@@ -4,10 +4,12 @@ import os
 import click
 from click import pass_obj
 
-from battleforcastile.constants import HEROES_FOLDER_NAME, MAX_NUM_LEVELS, BOSSES_FOLDER_NAME, MAX_NUM_LEVELS_E2E
+from battleforcastile.constants import HEROES_FOLDER_NAME, MAX_NUM_LEVELS, BOSSES_FOLDER_NAME, MAX_NUM_LEVELS_E2E, \
+    CARDS_FOLDER_PATH, CARDS_CSV_FILE_NAME
 from battleforcastile.exceptions import EnemyPlayerConcededException, EnemyPlayerHasWonException, \
     HeroPlayerHasWonException, MatchTimeoutException, MatchNotFoundException, MatchCouldNotBeCreatedException, \
     TurnCouldNotBeSentException, MatchCouldNotBeStartedException
+from battleforcastile.scripts.generate_cards_from_csv import read_csv, create_file_structure
 from battleforcastile.utils.wait_until_another_player_joins import wait_until_another_player_joins
 from battleforcastile.utils.get_user import get_user
 from battleforcastile.utils.select_all_files import select_all_files
@@ -34,6 +36,10 @@ def play(config):
 def story(config, e2e_mode):
     # Set paths
     heroes_path = os.path.join(CURRENT_PATH, '..', HEROES_FOLDER_NAME)
+
+    # Generate cards
+    cards = read_csv(os.path.join(CURRENT_PATH, '..', CARDS_CSV_FILE_NAME))
+    create_file_structure(path=CARDS_FOLDER_PATH, cards=cards)
 
     # Set vars
     current_level = 1
@@ -80,6 +86,10 @@ def match(config, e2e_mode):
 
     # Set paths
     heroes_path = os.path.join(CURRENT_PATH, '..', HEROES_FOLDER_NAME)
+
+    # Generate cards
+    cards = read_csv(os.path.join(CURRENT_PATH, '..', CARDS_CSV_FILE_NAME))
+    create_file_structure(path=CARDS_FOLDER_PATH, cards=cards)
 
     # Set vars
     match = None

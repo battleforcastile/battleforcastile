@@ -4,7 +4,7 @@ import os
 from battleforcastile.utils.select_all_files import select_all_files
 from battleforcastile.utils.display_card import display_card
 
-from battleforcastile.constants import CARDS_FOLDER_NAME, CORE_SET_FOLDER_NAME
+from battleforcastile.constants import CARDS_FOLDER_NAME
 
 CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 

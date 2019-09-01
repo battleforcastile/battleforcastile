@@ -1,12 +1,9 @@
 import json
-import os
 
 from unittest.mock import patch
 
 from battleforcastile.constants import BATTLEFORCASTILE_BACKEND_URL
 from battleforcastile.utils.login_user import login_user
-
-CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 
 @patch('battleforcastile.utils.login_user.requests.post')

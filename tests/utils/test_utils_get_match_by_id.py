@@ -1,11 +1,7 @@
-import os
-
 from unittest.mock import patch
 
 from battleforcastile.constants import BATTLEFORCASTILE_BACKEND_URL
 from battleforcastile.utils.get_match_by_id import get_match_by_id
-
-CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 
 @patch('battleforcastile.utils.get_match_by_id.requests.get')

@@ -3,8 +3,6 @@ import os
 from battleforcastile.utils.display_card import display_card
 from tests.fixtures import unit_card_value_2, spell_card_value_minus_2_enemy_all
 
-CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
-
 
 def test_if_unit_card_is_displayed_properly_without_cost():
     card = unit_card_value_2

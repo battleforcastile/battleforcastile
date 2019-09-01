@@ -134,3 +134,83 @@ spell_card_value_minus_999_enemy_all= {
         "target": "all"
     }
 }
+
+
+# Bosses
+
+black_angel = {
+    "meta": {
+        "name": "Black Angel"
+    },
+    "stats": {
+        "level": 1,
+        "life": 20
+    },
+    "powers": [
+        {
+            "name": "Day of death",
+            "invocation": {
+                "card_name": "Ancient Tree",
+                "num_instances": 2
+            },
+            "cost": 3
+        },
+        {
+            "name": "Day of destruction",
+            "invocation": {
+                "card_name": "Ancient Tree",
+                "num_instances": 3
+            },
+            "cost": 5
+        },
+        {
+            "name": "Armageddon",
+            "invocation": {
+                "card_name": "Ancient Tree",
+                "num_instances": 4
+            },
+            "cost": 8
+        }
+    ]
+}
+
+giant_troll = {
+    "meta": {
+        "name": "Giant Troll"
+    },
+    "stats": {
+        "level": 2,
+        "life": 25
+    },
+    "powers": [
+        {
+            "name": "Smash",
+            "invocation": {
+                "card_name": "Furious Goblin",
+                "num_instances": 2
+            },
+            "cost": 3
+        },
+        {
+            "name": "Double Smash",
+            "invocation": {
+                "card_name": "Conjuring Fairy",
+                "num_instances": 4
+            },
+            "cost": 4
+        }
+    ]
+}
+
+# Heroes
+
+black_forest_elf = {
+    "meta": {
+        "name": "Black Forest Elf",
+        "class": "creatures"
+    },
+    "stats": {
+        "level": 1
+    },
+    "powers": []
+}

@@ -1,9 +1,4 @@
-import os
-
 from battleforcastile.utils.has_lost import has_lost
-from tests.fixtures import unit_card_value_2
-
-CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 
 def test_if_has_lost_is_true_when_character_has_lower_value_and_an_empty_hand():

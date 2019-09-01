@@ -1,7 +1,7 @@
 
 import click
 
-from battleforcastile.constants import BATTLEFORCASTILE_CONFIG_FILENAME
+from battleforcastile.constants import BATTLEFORCASTILE_CONFIG_FILEPATH
 from battleforcastile.utils.login_user import login_user
 
 
@@ -15,7 +15,7 @@ def login(username):
     if r.status_code == 200:
         click.echo('Login Succeeded')
         result = r.json()
-        with open(BATTLEFORCASTILE_CONFIG_FILENAME, 'w+') as f:
+        with open(BATTLEFORCASTILE_CONFIG_FILEPATH, 'w+') as f:
             f.write(result.get('token'))
     else:
         click.echo(r.content)

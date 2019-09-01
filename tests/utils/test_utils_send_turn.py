@@ -1,13 +1,9 @@
 import json
-import os
 from unittest.mock import patch
 
 from battleforcastile.constants import BATTLEFORCASTILE_BACKEND_URL
 from battleforcastile.utils.send_turn import send_turn
 from battleforcastile.utils.generate_turn import generate_turn
-
-
-CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 
 @patch('battleforcastile.utils.send_turn.requests.post')

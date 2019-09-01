@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="044104e2-05bc-4e5e-8991-d02383f343b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/apply_action_to_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/apply_action_to_board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_apply_action_to_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_apply_action_to_board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/scripts/generate_cards_from_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/scripts/generate_cards_from_csv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +28,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/battleforcastile" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests/e2e" />
       <recent name="$PROJECT_DIR$/tests/e2e/cards" />
@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in test_utils_apply_action_to_board.py">
+  <component name="RunManager" selected="Python.generate_cards_from_csv">
     <configuration name="login.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="battleforcastile" />
       <option name="INTERPRETER_OPTIONS" value="bash" />
@@ -61,6 +61,28 @@
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/e2e/login.sh" />
       <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate_cards_from_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="battleforcastile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/battleforcastile/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/battleforcastile/scripts/generate_cards_from_csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="test_utils_apply_action_to_board" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -161,9 +183,11 @@
       <item itemvalue="Python.test_utils_apply_action_to_board" />
       <item itemvalue="Python tests.Nosetests in test_utils_apply_action_to_board.py" />
       <item itemvalue="Python tests.Nosetests in test_utils_select_random_boss_by_level.py" />
+      <item itemvalue="Python.generate_cards_from_csv" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generate_cards_from_csv" />
         <item itemvalue="Python.test_utils_apply_action_to_board" />
         <item itemvalue="Python.test_utils_select_random_cards_from_set" />
         <item itemvalue="Bash.login.sh" />
@@ -188,7 +212,7 @@
       <workItem from="1566925859760" duration="24803000" />
       <workItem from="1567100336155" duration="9876000" />
       <workItem from="1567233090424" duration="22009000" />
-      <workItem from="1567325075797" duration="3563000" />
+      <workItem from="1567325075797" duration="13093000" />
     </task>
     <task id="LOCAL-00001" summary="Adapt CLI to the new Micro-service &quot;Match recorder&quot;">
       <created>1566648880542</created>
@@ -218,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567259710463</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Simplify logic that applies value/damage to the board">
+      <created>1567328706691</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567328706691</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +273,8 @@
     <MESSAGE value="Adapt endpoints to the new architecture with Queues" />
     <MESSAGE value="Add 2 new e2e scenarios: Play story mode (win &amp; lose)" />
     <MESSAGE value="Refactor core logic to make e2e tests run flawlessly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor core logic to make e2e tests run flawlessly" />
+    <MESSAGE value="Simplify logic that applies value/damage to the board" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplify logic that applies value/damage to the board" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -257,6 +289,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/battleforcastile$pytest_in_test_utils_select_random_boss_by_level_py.coverage" NAME="pytest in test_utils_select_random_boss_by_level.py Coverage Results" MODIFIED="1567021082390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/battleforcastile$generate_cards_from_csv.coverage" NAME="generate_cards_from_csv Coverage Results" MODIFIED="1567349600629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/battleforcastile/scripts" />
     <SUITE FILE_PATH="coverage/battleforcastile$Nosetests_in_test_utils_select_random_boss_by_level_py.coverage" NAME="Nosetests in test_utils_select_random_boss_by_level.py Coverage Results" MODIFIED="1567259604974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/battleforcastile$Nosetests_in_test_utils_apply_action_to_board_py.coverage" NAME="Nosetests in test_utils_apply_action_to_board.py Coverage Results" MODIFIED="1567328658362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/battleforcastile$test_utils_apply_action_to_board.coverage" NAME="test_utils_apply_action_to_board Coverage Results" MODIFIED="1567326461173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/utils" />

@@ -1,0 +1,30 @@
+name,type,class,value,cost,set_name,description,board_side,target
+Ancient Tree,unit,creatures,3,1,core-set,,,
+Conjuring Fairy,unit,creatures,3,1,core-set,,,
+Furious Goblin,unit,creatures,3,1,core-set,,,
+Swamp Troll,unit,creatures,4,2,core-set,,,
+Toxic Rat,unit,creatures,6,3,core-set,,,
+Dark Mountain Dragon,unit,creatures,8,4,core-set,,,
+Angry Elemental,unit,creatures,9,5,core-set,,,
+Silver Back Troll,unit,creatures,10,7,core-set,,,
+Paralyzing Poison,spell,creatures,-3,4,core-set,Give -3 to all enemy cards on the board,0,all
+Potion of Growth,spell,creatures,2,6,core-set,Give +2 to all your cards on the board,1,all
+Sure Death,spell,creatures,-999,8,core-set,Destroy all enemy cards on the board,0,all
+Blacksmith of the Fortress,unit,kingdom,3,1,core-set,,,
+Curious Explorer,unit,kingdom,3,1,core-set,,,
+Honest Knight,unit,kingdom,4,2,core-set,,,
+Lonely Apprentice,unit,kingdom,4,2,core-set,,,
+Rigorous Priest,unit,kingdom,6,3,core-set,,,
+Shieldbearer,unit,kingdom,6,3,core-set,,,
+Wizard of the Kingdom,unit,kingdom,8,4,core-set,,,
+Inquisitor Judge,unit,kingdom,9,5,core-set,,,
+Potion of Bravery,spell,kingdom,1,3,core-set,Give +1 to all your cards on the board,1,all
+Forest Hermit,unit,outlaws,3,1,core-set,,,
+Potions Merchant,unit,outlaws,3,1,core-set,,,
+Exiled Knight,unit,outlaws,4,2,core-set,,,
+Thief of Swords,unit,outlaws,4,2,core-set,,,
+Dark Merchant,unit,outlaws,6,3,core-set,,,
+Silent Murderer,unit,outlaws,6,3,core-set,,,
+Enchantress of the Night,unit,outlaws,8,4,core-set,,,
+Wizard of the Elements,unit,outlaws,9,5,core-set,,,
+Potion of Herbs,spell,outlaws,1,3,core-set,Give +1 to all your cards on the board,1,all

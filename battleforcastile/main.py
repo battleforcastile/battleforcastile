@@ -2,7 +2,7 @@ import os
 import click
 
 from battleforcastile.config import pass_config
-from battleforcastile.constants import DATA_FOLDER, BATTLEFORCASTILE_CONFIG_FILENAME, __VERSION__
+from battleforcastile.constants import DATA_FOLDER_PATH, BATTLEFORCASTILE_CONFIG_FILEPATH, __VERSION__
 from battleforcastile.cli.play import play
 from battleforcastile.cli.account import account
 from battleforcastile.cli.login import login
@@ -12,11 +12,11 @@ from battleforcastile.cli.cards import cards
 
 def _read_user_token():
     """
-    Read user token from the DATA_FOLDER.
+    Read user token from the DATA_FOLDER_PATH.
     """
-    if not os.path.exists(BATTLEFORCASTILE_CONFIG_FILENAME):
+    if not os.path.exists(BATTLEFORCASTILE_CONFIG_FILEPATH):
         return None
-    with open(BATTLEFORCASTILE_CONFIG_FILENAME, 'r') as f:
+    with open(BATTLEFORCASTILE_CONFIG_FILEPATH, 'r') as f:
         token = f.read()
     return token
 
@@ -31,8 +31,8 @@ def _get_cli_version():
 @click.group()
 @pass_config
 def cli(config):
-    if not os.path.exists(DATA_FOLDER):
-        os.makedirs(DATA_FOLDER)
+    if not os.path.exists(DATA_FOLDER_PATH):
+        os.makedirs(DATA_FOLDER_PATH)
 
     config.token = _read_user_token()
     config.version = _get_cli_version()

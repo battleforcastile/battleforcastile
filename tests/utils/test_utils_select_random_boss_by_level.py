@@ -1,6 +1,5 @@
 import os
 
-from battleforcastile.utils.select_all_files import select_all_files
 from battleforcastile.utils.select_random_boss_by_level import select_random_boss_by_level
 
 CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))

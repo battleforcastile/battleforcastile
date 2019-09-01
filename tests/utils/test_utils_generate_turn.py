@@ -2,8 +2,6 @@ import os
 
 from battleforcastile.utils.generate_turn import generate_turn
 
-CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
-
 
 def test_if_generate_turn_works_as_it_should():
     turn_number = 1
