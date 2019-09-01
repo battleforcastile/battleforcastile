@@ -1,5 +1,8 @@
 import copy
 
+from battleforcastile.constants import CARDS_FOLDER_PATH
+from battleforcastile.utils.select_card_by_name import select_card_by_name
+
 
 def apply_action_to_board(state: dict, card_to_play: dict, board_side: int) -> dict:
     """
@@ -16,6 +19,16 @@ def apply_action_to_board(state: dict, card_to_play: dict, board_side: int) -> d
     elif card_type == 'spell':
         board_side_target = card_to_play['selectors']['board_side']
         selection = card_to_play['selectors']['target']
+
+        if selection == 'invocation':
+            entity_to_invoke = card_to_play['selectors']['entity_to_invoke']
+            num_entities = card_to_play['selectors']['num_entities']
+
+            invoked_card = select_card_by_name(CARDS_FOLDER_PATH, entity_to_invoke)
+
+            if invoked_card:
+                for instance in range(num_entities):
+                    new_board[board_side_target].append(invoked_card)
 
         if selection == 'all':
             # Apply to all cards

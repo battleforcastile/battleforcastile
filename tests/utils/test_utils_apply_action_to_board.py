@@ -1,10 +1,11 @@
 import os
+from unittest.mock import patch
 
 from battleforcastile.constants import ENEMY_BOARD_SIDE, HERO_BOARD_SIDE
 from battleforcastile.utils.apply_action_to_board import apply_action_to_board
 from tests.fixtures import unit_card_value_2, spell_card_value_minus_2_enemy_all, unit_card_value_3, \
     spell_card_value_plus_2_hero_highest, spell_card_value_minus_2_enemy_highest, spell_card_value_minus_2_enemy_lowest, \
-    spell_card_value_minus_999_enemy_all, unit_card_value_1
+    spell_card_value_minus_999_enemy_all, unit_card_value_1, spell_card_value_with_invocation_of_two_entities
 
 CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 
@@ -135,3 +136,19 @@ def test_if_playing_spells_with_lowest_selection_can_kill_more_than_one_unit_if_
     state = apply_action_to_board(state, spell_card_value_minus_2_enemy_lowest, ENEMY_BOARD_SIDE)
 
     assert state['board'][ENEMY_BOARD_SIDE] == []
+
+
+### Invocation Selection
+
+@patch('battleforcastile.utils.apply_action_to_board.CARDS_FOLDER_PATH',
+       os.path.join(CURRENT_PATH, 'fixtures', 'cards'))
+def test_if_playing_spells_with_invocation_selection_work_as_it_should():
+
+    state = {
+        'board': [[], []]
+    }
+    state = apply_action_to_board(state, spell_card_value_with_invocation_of_two_entities, HERO_BOARD_SIDE)
+
+    assert len(state['board'][HERO_BOARD_SIDE]) == 2
+    assert len(state['board'][ENEMY_BOARD_SIDE]) == 0
+

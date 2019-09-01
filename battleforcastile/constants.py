@@ -7,7 +7,6 @@ CARDS_FOLDER_NAME = 'cards'
 DATETIME_FORMAT = '%d-%m-%Y %H:%M:%S'
 DATA_FOLDER_PATH = os.path.join(os.path.expanduser('~'), '.battleforcastile')
 CARDS_FOLDER_PATH = os.path.join(DATA_FOLDER_PATH, CARDS_FOLDER_NAME)
-
 BATTLEFORCASTILE_CONFIG_FILEPATH = os.path.join(DATA_FOLDER_PATH, os.environ.get(
     'BATTLEFORCASTILE_CONFIG_FILEPATH', 'client_config'))
 

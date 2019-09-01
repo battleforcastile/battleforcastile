@@ -57,8 +57,10 @@ def create_spell_file(path: str = None, card: dict = None):
                 'cost': int(card['cost'])
             },
             'selectors': {
-                'board_side': card['board_side'],
-                'target': card['target']
+                'board_side': int(card['board_side']),
+                'target': card['target'],
+                'num_entities': int(card['num_entities']) if card.get('num_entities') else None,
+                'entity_to_invoke': card['entity_to_invoke'] if card.get('entity_to_invoke') else None
             }
         }
         file.write(json.dumps(body))

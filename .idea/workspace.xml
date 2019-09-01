@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="044104e2-05bc-4e5e-8991-d02383f343b6" name="Default Changelist" comment="">
+    <list default="true" id="044104e2-05bc-4e5e-8991-d02383f343b6" name="Default Changelist" comment="Simplify logic that applies value/damage to the board">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/battleforcastile_cards.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/battleforcastile/scripts/generate_cards_from_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/scripts/generate_cards_from_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/apply_action_to_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/apply_action_to_board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/select_all_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/select_all_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_apply_action_to_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_apply_action_to_board.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.generate_cards_from_csv">
+  <component name="RunManager" selected="Python tests.Nosetests in test_utils_apply_action_to_board.py">
     <configuration name="login.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="battleforcastile" />
       <option name="INTERPRETER_OPTIONS" value="bash" />
@@ -212,7 +219,7 @@
       <workItem from="1566925859760" duration="24803000" />
       <workItem from="1567100336155" duration="9876000" />
       <workItem from="1567233090424" duration="22009000" />
-      <workItem from="1567325075797" duration="13093000" />
+      <workItem from="1567325075797" duration="18226000" />
     </task>
     <task id="LOCAL-00001" summary="Adapt CLI to the new Micro-service &quot;Match recorder&quot;">
       <created>1566648880542</created>
@@ -284,6 +291,8 @@
         <watch expression="boss == select_all_files(f'{CURRENT_PATH}/../../tests/e2e/bosses')[0]" language="Python" />
         <watch expression="select_all_files(f'{CURRENT_PATH}/../../tests/e2e/bosses')[0]" language="Python" />
         <watch expression="new_board[board_side_target]" language="Python" />
+        <watch expression="CARDS_FOLDER_PATH" language="Python" />
+        <watch expression="len(state['board'][HERO_BOARD_SIDE])" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -291,7 +300,7 @@
     <SUITE FILE_PATH="coverage/battleforcastile$pytest_in_test_utils_select_random_boss_by_level_py.coverage" NAME="pytest in test_utils_select_random_boss_by_level.py Coverage Results" MODIFIED="1567021082390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/battleforcastile$generate_cards_from_csv.coverage" NAME="generate_cards_from_csv Coverage Results" MODIFIED="1567349600629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/battleforcastile/scripts" />
     <SUITE FILE_PATH="coverage/battleforcastile$Nosetests_in_test_utils_select_random_boss_by_level_py.coverage" NAME="Nosetests in test_utils_select_random_boss_by_level.py Coverage Results" MODIFIED="1567259604974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/battleforcastile$Nosetests_in_test_utils_apply_action_to_board_py.coverage" NAME="Nosetests in test_utils_apply_action_to_board.py Coverage Results" MODIFIED="1567328658362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/battleforcastile$Nosetests_in_test_utils_apply_action_to_board_py.coverage" NAME="Nosetests in test_utils_apply_action_to_board.py Coverage Results" MODIFIED="1567354430785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/battleforcastile$test_utils_apply_action_to_board.coverage" NAME="test_utils_apply_action_to_board Coverage Results" MODIFIED="1567326461173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/utils" />
     <SUITE FILE_PATH="coverage/battleforcastile$test_utils_select_random_cards_from_set.coverage" NAME="test_utils_select_random_cards_from_set Coverage Results" MODIFIED="1567021037890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/utils" />
   </component>

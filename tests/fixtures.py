@@ -57,7 +57,9 @@ spell_card_value_minus_2_enemy_all = {
     },
     "selectors":  {
         "board_side": 0,
-        "target": "all"
+        "target": "all",
+        "num_entities": None,
+        "entity_to_invoke": None
     }
 }
 
@@ -75,7 +77,9 @@ spell_card_value_plus_2_hero_highest = {
     },
     "selectors":  {
         "board_side": 1,
-        "target": "highest"
+        "target": "highest",
+        "num_entities": None,
+        "entity_to_invoke": None
     }
 }
 
@@ -93,7 +97,9 @@ spell_card_value_minus_2_enemy_highest = {
     },
     "selectors":  {
         "board_side": 0,
-        "target": "highest"
+        "target": "highest",
+        "num_entities": None,
+        "entity_to_invoke": None
     }
 }
 
@@ -112,7 +118,9 @@ spell_card_value_minus_2_enemy_lowest= {
     },
     "selectors":  {
         "board_side": 0,
-        "target": "lowest"
+        "target": "lowest",
+        "num_entities": None,
+        "entity_to_invoke": None
     }
 }
 
@@ -131,7 +139,31 @@ spell_card_value_minus_999_enemy_all= {
     },
     "selectors":  {
         "board_side": 0,
-        "target": "all"
+        "target": "all",
+        "num_entities": None,
+        "entity_to_invoke": None
+    }
+}
+
+
+spell_card_value_with_invocation_of_two_entities= {
+    "meta": {
+        "name": "Deep Forest",
+        "type": "spell",
+        "class": "creatures",
+        "description": "Invoke 2 \"Ancient Tree\" units"
+    },
+    "stats": {
+        "original_value": 6,
+        "current_value": 6,
+        "cost": 3
+    },
+    "selectors":  {
+        "board_side": 1,
+        "target": "invocation",
+        "num_entities": 2,
+        "entity_to_invoke": "Ancient Tree"
+
     }
 }
 

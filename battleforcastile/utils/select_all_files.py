@@ -1,16 +1,14 @@
-import glob
 import json
-import os
 import random
+from pathlib import Path
 from typing import List
 
 
 def select_all_files(path: str) -> List:
-    files = glob.glob(os.path.join(path, '*.json'))
-
     imported_files = []
-    for file in files:
-        with open(file) as json_file:
+    for filename in Path(path).glob('**/*.json'):
+
+        with open(str(filename)) as json_file:
             data = json.load(json_file)
             imported_files.append(data)
 
