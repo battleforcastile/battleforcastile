@@ -27,3 +27,72 @@ steps:
 
 - script: pipenv run nosetests
   displayName: 'Run unittests'
+
+- bash: |
+    sudo apt-get -y install expect
+    pipenv run pip install -e .
+  displayName: 'Build CLI'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./successful_account_creation.sh $(EMAIL1) $(USERNAME1) $(PASSWORD1)
+    pipenv run ./successful_account_creation.sh $(EMAIL2) $(USERNAME2) $(PASSWORD2)
+  displayName: 'Scenario: Successful account creation'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./invalid_account_creation_due_to_duplicated_email.sh $(EMAIL1) $(USERNAME2) $(PASSWORD2)
+  displayName: 'Scenario: Invalid account creation due to duplicated email'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./invalid_account_creation_due_to_duplicated_username.sh $(EMAIL2) $(USERNAME1) $(PASSWORD2)
+  displayName: 'Scenario: Invalid account creation due to duplicated username'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./invalid_account_creation_due_to_short_password.sh $(EMAIL3) $(USERNAME3) $(SHORT_PASSWORD)
+  displayName: 'Scenario: Invalid account creation due to short password'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./successful_login.sh $(USERNAME1) $(PASSWORD1)
+  displayName: 'Scenario: Successful login'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./lose_playing_story_mode.sh
+  displayName: 'Scenario: Lose when playing story mode'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./win_playing_story_mode.sh
+  displayName: 'Scenario: Win when playing story mode'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./win_playing_match_mode.sh $(USERNAME1) $(PASSWORD1) $(USERNAME2) $(PASSWORD2)
+  displayName: 'Scenario: Win when playing match mode'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./successful_login.sh $(USERNAME1) $(PASSWORD1)
+  displayName: 'Scenario: Successful login'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./successful_logout.sh $(USERNAME1)
+  displayName: 'Scenario: Successful logout'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./already_logout.sh $(USERNAME1)
+  displayName: 'Scenario: Already logout'
+
+- bash: |
+    cd tests/e2e
+    pipenv run ./successful_login.sh $(USERNAME1) $(PASSWORD1)
+    pipenv run ./successful_account_deletion.sh
+    pipenv run ./successful_login.sh $(USERNAME2) $(PASSWORD2)
+    pipenv run ./successful_account_deletion.sh
+  displayName: 'Scenario: Successful account deletion'
