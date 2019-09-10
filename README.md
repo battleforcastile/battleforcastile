@@ -1,6 +1,6 @@
 # Battle For Castile
 
-[![CircleCI](https://circleci.com/gh/battleforcastile/battleforcastile/tree/master.svg?style=svg)](https://circleci.com/gh/battleforcastile/battleforcastile/tree/master)
+[![Build Status](https://dev.azure.com/javidgon/Battleforcastile/_apis/build/status/battleforcastile.battleforcastile?branchName=master)](https://dev.azure.com/javidgon/Battleforcastile/_build/latest?definitionId=6&branchName=master)
 
 #  Introducion
 **Battle for Castile** is a fantasy card game based on a fictional universe set on the kingdom of Castile (Spain)
