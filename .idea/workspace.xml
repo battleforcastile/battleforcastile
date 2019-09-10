@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="044104e2-05bc-4e5e-8991-d02383f343b6" name="Default Changelist" comment="Simplify logic that applies value/damage to the board">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/battleforcastile_cards.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/scripts/generate_cards_from_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/scripts/generate_cards_from_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/apply_action_to_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/apply_action_to_board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleforcastile/utils/select_all_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/battleforcastile/utils/select_all_files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/test_utils_apply_action_to_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/test_utils_apply_action_to_board.py" afterDir="false" />
+    <list default="true" id="044104e2-05bc-4e5e-8991-d02383f343b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/azure-pipelines.yml" beforeDir="false" afterPath="$PROJECT_DIR$/azure-pipelines.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/azure-pipelines.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1467" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,7 +45,49 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/azure-pipelines.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="787" />
+  </component>
   <component name="ProjectId" id="1Ps0wr35tlXSTmuvU1BOHd2I2nI" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="battleforcastile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="battleforcastile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="battleforcastile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="battleforcastile" type="462c0819:PsiDirectoryNode" />
+              <item name="battleforcastile" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -35,15 +95,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/battleforcastile" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests/e2e" />
       <recent name="$PROJECT_DIR$/tests/e2e/cards" />
       <recent name="$PROJECT_DIR$/battleforcastile/utils" />
       <recent name="$PROJECT_DIR$/tests/utils" />
       <recent name="$PROJECT_DIR$/tests/e2e/bosses" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tests/utils/fixtures/cards/creatures" />
+      <recent name="$PROJECT_DIR$/battleforcastile" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +125,6 @@
       <module name="battleforcastile" />
       <option name="INTERPRETER_OPTIONS" value="bash" />
       <option name="INTERPRETER_PATH" value="/usr/bin/env" />
-      <option name="PROJECT_INTERPRETER" value="false" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/e2e" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/e2e/login.sh" />
@@ -185,11 +246,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python tests.Nosetests in test_utils_apply_action_to_board.py" />
+      <item itemvalue="Python tests.Nosetests in test_utils_select_random_boss_by_level.py" />
       <item itemvalue="Bash.login.sh" />
       <item itemvalue="Python.test_utils_select_random_cards_from_set" />
       <item itemvalue="Python.test_utils_apply_action_to_board" />
-      <item itemvalue="Python tests.Nosetests in test_utils_apply_action_to_board.py" />
-      <item itemvalue="Python tests.Nosetests in test_utils_select_random_boss_by_level.py" />
       <item itemvalue="Python.generate_cards_from_csv" />
     </list>
     <recent_temporary>
@@ -219,7 +280,8 @@
       <workItem from="1566925859760" duration="24803000" />
       <workItem from="1567100336155" duration="9876000" />
       <workItem from="1567233090424" duration="22009000" />
-      <workItem from="1567325075797" duration="18226000" />
+      <workItem from="1567325075797" duration="19337000" />
+      <workItem from="1567848052815" duration="5136000" />
     </task>
     <task id="LOCAL-00001" summary="Adapt CLI to the new Micro-service &quot;Match recorder&quot;">
       <created>1566648880542</created>
@@ -256,8 +318,43 @@
       <option name="project" value="LOCAL" />
       <updated>1567328706691</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add support for invocation spells">
+      <created>1567364306390</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567364306390</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="787" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.38705036" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Mongo Explorer" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -268,6 +365,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -275,13 +378,17 @@
       </map>
     </option>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adapt CLI to the new Micro-service &quot;Match recorder&quot;" />
     <MESSAGE value="Adapt endpoints to the new architecture with Queues" />
     <MESSAGE value="Add 2 new e2e scenarios: Play story mode (win &amp; lose)" />
     <MESSAGE value="Refactor core logic to make e2e tests run flawlessly" />
     <MESSAGE value="Simplify logic that applies value/damage to the board" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simplify logic that applies value/damage to the board" />
+    <MESSAGE value="Add support for invocation spells" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add support for invocation spells" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -303,5 +410,22 @@
     <SUITE FILE_PATH="coverage/battleforcastile$Nosetests_in_test_utils_apply_action_to_board_py.coverage" NAME="Nosetests in test_utils_apply_action_to_board.py Coverage Results" MODIFIED="1567354430785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/battleforcastile$test_utils_apply_action_to_board.coverage" NAME="test_utils_apply_action_to_board Coverage Results" MODIFIED="1567326461173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/utils" />
     <SUITE FILE_PATH="coverage/battleforcastile$test_utils_select_random_cards_from_set.coverage" NAME="test_utils_select_random_cards_from_set Coverage Results" MODIFIED="1567021037890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/utils" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1467" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/azure-pipelines.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
