@@ -2,6 +2,8 @@
 
 [![Build Status](https://dev.azure.com/javidgon/Battleforcastile/_apis/build/status/battleforcastile.battleforcastile?branchName=master)](https://dev.azure.com/javidgon/Battleforcastile/_build/latest?definitionId=6&branchName=master)
 
+![battleforcastile](https://user-images.githubusercontent.com/539530/130044295-39638bcd-3055-4dde-a457-b2753edb0376.png)
+
 #  Introducion
 **Battle for Castile** is a fantasy card game based on a fictional universe set on the kingdom of Castile (Spain)
 during the 13th century.
