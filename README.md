@@ -44,9 +44,19 @@ so they are capable of casting powerful destructive spells and invocations. Thei
     - Weak end-game of the board due to lack of "high value" units
 
 
-# Installation
+# Local Installation
+
+##### To setup the environment
+```
+pipenv install
+```
 
 ##### To install the cli tool locally
 ```
-pip install -e .
+python3 -m pip install -e
+```
+
+##### To execute it
+```
+pipenv run battleforcastile
 ```
